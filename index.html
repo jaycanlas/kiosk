@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Board</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #80af46;
+            margin: 0; /* Reset margin */
+        }
+
+        .container {
+            background-color: #ffffff;
+            border: 2px solid #80af46;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 90%;
+            max-width: 900px; /* Adjusted max-width for better layout */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            width: 40%; /* Set width to 50% */
+            height: 40%; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the image */
+            display: block; /* Make it a block element */
+            margin-bottom: 10px; /* Add some space below the logo */
+        }
+
+        .message {
+            font-size: 63px; /* Increased font size */
+            font-weight: bold; /* Make text bold */
+            color: #333;
+            line-height: 1.5;
+            margin-top: 10px; /* Reduced margin to bring the message closer */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="LND.png" alt="Logo" class="logo">
+        <h1 class="message">DO NOT TURN OFF THE KIOSK. THANK YOU!</h1>
+    </div>
+</body>
+</html>
